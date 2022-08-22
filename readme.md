@@ -16,12 +16,12 @@ Questa immagine viene pubblicata in 2 tag seprati, `latest` e `staging` che ovvi
 ### Latest
 Latest è la versione stabile e corrente di Dalamud che può essere usata aggiungendo lo snippet di codice che trovate di seguito:
 ```
-FROM ghcr.io/AHDCreative/xivita-daladocker:latest
+FROM ghcr.io/ahdcreative/xivita-daladocker:latest
 ```
 ### Staging
 Stagin è la versione sperimentale della libreria Dalamud. Se volete aggiungerla al vostro progetto, copiate lo snippet seguente:
 ```
-FROM ghcr.io/AHDCreative/xivita-daladocker:staging
+FROM ghcr.io/ahdcreative/xivita-daladocker:staging
 ```
 ## Aggiornamento dei Container
 Tutti i container vengono aggiornati su base settimanale. Per quanto riguarda la versione di Dotnet, sarà incrementata quando sarà compatibile con la libreria e ci sarà una immagine base disponibile.
