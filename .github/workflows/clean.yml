@@ -1,4 +1,4 @@
-name: Cleanup Images
+name: Pulizia Immagini
 
 on:
   workflow_dispatch:
